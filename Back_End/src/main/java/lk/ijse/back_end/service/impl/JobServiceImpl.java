@@ -4,6 +4,7 @@ import lk.ijse.back_end.dto.JobDTO;
 import lk.ijse.back_end.entity.Job;
 import lk.ijse.back_end.repository.JobRepository;
 import lk.ijse.back_end.service.JobService;
+import lk.ijse.back_end.exception.ResourceNotFound;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
