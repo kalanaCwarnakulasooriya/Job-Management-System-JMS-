@@ -77,3 +77,138 @@
 2025-07-22T22:07:36.182+05:30 DEBUG 16440 --- [Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
 2025-07-22T22:07:36.267+05:30  INFO 16440 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-07-22T22:07:36.273+05:30  INFO 16440 --- [Back_End] [main] lk.ijse.back_end.Application             : Started Application in 3.363 seconds (process running for 4.009)
+2025-07-22T22:10:48.537+05:30  INFO 16440 --- [Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T22:10:48.563+05:30  INFO 16440 --- [Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T22:10:48.588+05:30  INFO 16440 --- [Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:10:48.612+05:30  INFO 16440 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-22T22:10:48.641+05:30  INFO 16440 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-22T22:10:51.413+05:30  INFO 8540 --- [Back_End] [main] lk.ijse.back_end.Application             : Starting Application using Java 21.0.4 with PID 8540 (D:\AAD\JAVAEE\PROJECTS\JMS\Back_End\target\classes started by VivoBook in D:\AAD\JAVAEE\PROJECTS\JMS)
+2025-07-22T22:10:51.415+05:30 DEBUG 8540 --- [Back_End] [main] lk.ijse.back_end.Application             : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22T22:10:51.416+05:30  INFO 8540 --- [Back_End] [main] lk.ijse.back_end.Application             : No active profile set, falling back to 1 default profile: "default"
+2025-07-22T22:10:52.056+05:30  INFO 8540 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22T22:10:52.118+05:30  INFO 8540 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2025-07-22T22:10:52.488+05:30  INFO 8540 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T22:10:52.501+05:30  INFO 8540 --- [Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T22:10:52.502+05:30  INFO 8540 --- [Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T22:10:52.542+05:30  INFO 8540 --- [Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T22:10:52.542+05:30  INFO 8540 --- [Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1083 ms
+2025-07-22T22:10:52.660+05:30  INFO 8540 --- [Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22T22:10:52.713+05:30  INFO 8540 --- [Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22T22:10:52.751+05:30  INFO 8540 --- [Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-22T22:10:52.969+05:30  INFO 8540 --- [Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22T22:10:52.990+05:30  INFO 8540 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-22T22:10:53.354+05:30  INFO 8540 --- [Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@995ad50
+2025-07-22T22:10:53.359+05:30  INFO 8540 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-22T22:10:53.418+05:30  WARN 8540 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-22T22:10:53.418+05:30  WARN 8540 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-22T22:10:53.432+05:30  INFO 8540 --- [Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22T22:10:54.103+05:30  INFO 8540 --- [Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22T22:10:54.175+05:30  INFO 8540 --- [Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:10:54.448+05:30  INFO 8540 --- [Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-22T22:10:54.508+05:30  WARN 8540 --- [Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22T22:10:54.595+05:30 DEBUG 8540 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-07-22T22:10:54.679+05:30 DEBUG 8540 --- [Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-07-22T22:10:54.705+05:30 DEBUG 8540 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-22T22:10:54.747+05:30 DEBUG 8540 --- [Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-22T22:10:54.838+05:30  INFO 8540 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T22:10:54.845+05:30  INFO 8540 --- [Back_End] [main] lk.ijse.back_end.Application             : Started Application in 3.816 seconds (process running for 4.526)
+2025-07-22T22:11:05.770+05:30  INFO 8540 --- [Back_End] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T22:11:05.772+05:30  INFO 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T22:11:05.772+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-07-22T22:11:05.772+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-07-22T22:11:05.773+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-07-22T22:11:05.774+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2b55ea4d
+2025-07-22T22:11:05.774+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@24b4f4a
+2025-07-22T22:11:05.774+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-22T22:11:05.774+05:30  INFO 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-07-22T22:11:05.786+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:11:05.799+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:11:06.150+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:11:06.155+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@58b (truncated)...]
+2025-07-22T22:11:06.188+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:12:46.339+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/create", parameters={}
+2025-07-22T22:12:46.344+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:12:46.359+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:12:46.383+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:12:46.384+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:12:46.432+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:12:46.433+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:12:46.463+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:12:46.464+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@522 (truncated)...]
+2025-07-22T22:12:46.468+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:12:46.479+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@6550599a]
+2025-07-22T22:12:46.532+05:30  INFO 8540 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:12:46.532+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:12:46.533+05:30 ERROR 8540 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:12:46.533+05:30  WARN 8540 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:12:46.625+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:12:46.625+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Saved Successfully, data=null)]
+2025-07-22T22:12:46.625+05:30 DEBUG 8540 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:14:25.863+05:30  INFO 8540 --- [Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T22:14:25.886+05:30  INFO 8540 --- [Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T22:14:25.912+05:30  INFO 8540 --- [Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:14:25.936+05:30  INFO 8540 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-22T22:14:25.971+05:30  INFO 8540 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-22T22:15:52.097+05:30  INFO 20544 --- [Back_End] [main] lk.ijse.back_end.Application             : Starting Application using Java 21.0.4 with PID 20544 (D:\AAD\JAVAEE\PROJECTS\JMS\Back_End\target\classes started by VivoBook in D:\AAD\JAVAEE\PROJECTS\JMS)
+2025-07-22T22:15:52.099+05:30 DEBUG 20544 --- [Back_End] [main] lk.ijse.back_end.Application             : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22T22:15:52.099+05:30  INFO 20544 --- [Back_End] [main] lk.ijse.back_end.Application             : No active profile set, falling back to 1 default profile: "default"
+2025-07-22T22:15:52.781+05:30  INFO 20544 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22T22:15:52.848+05:30  INFO 20544 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2025-07-22T22:15:53.398+05:30  INFO 20544 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T22:15:53.414+05:30  INFO 20544 --- [Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T22:15:53.414+05:30  INFO 20544 --- [Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T22:15:53.480+05:30  INFO 20544 --- [Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T22:15:53.481+05:30  INFO 20544 --- [Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1349 ms
+2025-07-22T22:15:53.682+05:30  INFO 20544 --- [Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22T22:15:53.761+05:30  INFO 20544 --- [Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22T22:15:53.810+05:30  INFO 20544 --- [Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-22T22:15:54.230+05:30  INFO 20544 --- [Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22T22:15:54.262+05:30  INFO 20544 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-22T22:15:54.738+05:30  INFO 20544 --- [Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a1e912f
+2025-07-22T22:15:54.740+05:30  INFO 20544 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-22T22:15:54.805+05:30  WARN 20544 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-22T22:15:54.806+05:30  WARN 20544 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-22T22:15:54.823+05:30  INFO 20544 --- [Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22T22:15:55.751+05:30  INFO 20544 --- [Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22T22:15:55.852+05:30  INFO 20544 --- [Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:15:56.191+05:30  INFO 20544 --- [Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-22T22:15:56.261+05:30  WARN 20544 --- [Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22T22:15:56.362+05:30 DEBUG 20544 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-07-22T22:15:56.446+05:30 DEBUG 20544 --- [Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-07-22T22:15:56.486+05:30 DEBUG 20544 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-22T22:15:56.537+05:30 DEBUG 20544 --- [Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-22T22:15:56.681+05:30  INFO 20544 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T22:15:56.689+05:30  INFO 20544 --- [Back_End] [main] lk.ijse.back_end.Application             : Started Application in 5.003 seconds (process running for 5.739)
+2025-07-22T22:16:02.136+05:30  INFO 20544 --- [Back_End] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T22:16:02.136+05:30  INFO 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T22:16:02.136+05:30 DEBUG 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-07-22T22:16:02.136+05:30 DEBUG 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-07-22T22:16:02.136+05:30 DEBUG 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-07-22T22:16:02.137+05:30 DEBUG 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6b04689e
+2025-07-22T22:16:02.137+05:30 DEBUG 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7ddcd3d
+2025-07-22T22:16:02.137+05:30 DEBUG 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-22T22:16:02.137+05:30  INFO 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-22T22:16:02.146+05:30 DEBUG 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:16:02.156+05:30 DEBUG 20544 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:16:02.414+05:30 DEBUG 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:16:02.417+05:30 DEBUG 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@3e5 (truncated)...]
+2025-07-22T22:16:02.444+05:30 DEBUG 20544 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:16:30.853+05:30  INFO 20544 --- [Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T22:16:30.859+05:30  INFO 20544 --- [Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T22:16:30.864+05:30  INFO 20544 --- [Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:16:30.865+05:30  INFO 20544 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-22T22:16:30.873+05:30  INFO 20544 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
