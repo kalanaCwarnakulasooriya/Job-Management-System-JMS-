@@ -124,10 +124,10 @@ $('#updateJobBtn').on('click', function () {
         company: $('#editCompanyName').val(),
         location: $('#editJobLocation').val(),
         type: $('#editJobType').val(),
-        jobDescription: $('#editJobDescription').val(),
+        description: $('#editJobDescription').val(),
         status: 'Active'
     };
-    if (!jobData.jobTitle || !jobData.company || !jobData.location || !jobData.type || !jobData.jobDescription) {
+    if (!jobData.jobTitle || !jobData.company || !jobData.location || !jobData.type || !jobData.description) {
         Swal.fire('Warning', 'Please fill in all fields.', 'warning');
         return;
     }
@@ -153,9 +153,9 @@ $('#saveJobBtn').on('click', function () {
         company: $('#companyName').val(),
         location: $('#jobLocation').val(),
         type: $('#jobType').val(),
-        jobDescription: $('#jobDescription').val()
+        description: $('#jobDescription').val()
     };
-    if (!jobData.jobTitle || !jobData.company || !jobData.location || !jobData.type || !jobData.jobDescription) {
+    if (!jobData.jobTitle || !jobData.company || !jobData.location || !jobData.type || !jobData.description) {
         Swal.fire('Warning', 'Please fill in all fields.', 'warning');
         return;
     }

@@ -212,3 +212,985 @@
 2025-07-22T22:16:30.864+05:30  INFO 20544 --- [Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-07-22T22:16:30.865+05:30  INFO 20544 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-07-22T22:16:30.873+05:30  INFO 20544 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-22T22:18:03.612+05:30  INFO 8944 --- [Back_End] [main] lk.ijse.back_end.Application             : Starting Application using Java 21.0.4 with PID 8944 (D:\AAD\JAVAEE\PROJECTS\JMS\Back_End\target\classes started by VivoBook in D:\AAD\JAVAEE\PROJECTS\JMS)
+2025-07-22T22:18:03.616+05:30 DEBUG 8944 --- [Back_End] [main] lk.ijse.back_end.Application             : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22T22:18:03.617+05:30  INFO 8944 --- [Back_End] [main] lk.ijse.back_end.Application             : No active profile set, falling back to 1 default profile: "default"
+2025-07-22T22:18:04.829+05:30  INFO 8944 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22T22:18:04.902+05:30  INFO 8944 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2025-07-22T22:18:05.454+05:30  INFO 8944 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T22:18:05.469+05:30  INFO 8944 --- [Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T22:18:05.469+05:30  INFO 8944 --- [Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T22:18:05.524+05:30  INFO 8944 --- [Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T22:18:05.524+05:30  INFO 8944 --- [Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1802 ms
+2025-07-22T22:18:05.697+05:30  INFO 8944 --- [Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22T22:18:05.768+05:30  INFO 8944 --- [Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22T22:18:05.807+05:30  INFO 8944 --- [Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-22T22:18:06.122+05:30  INFO 8944 --- [Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22T22:18:06.152+05:30  INFO 8944 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-22T22:18:06.616+05:30  INFO 8944 --- [Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6aa6c17
+2025-07-22T22:18:06.617+05:30  INFO 8944 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-22T22:18:06.689+05:30  WARN 8944 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-22T22:18:06.690+05:30  WARN 8944 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-22T22:18:06.707+05:30  INFO 8944 --- [Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22T22:18:07.561+05:30  INFO 8944 --- [Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22T22:18:07.647+05:30  INFO 8944 --- [Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:18:07.934+05:30  INFO 8944 --- [Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-22T22:18:08.007+05:30  WARN 8944 --- [Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22T22:18:08.104+05:30 DEBUG 8944 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-07-22T22:18:08.178+05:30 DEBUG 8944 --- [Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-07-22T22:18:08.203+05:30 DEBUG 8944 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-22T22:18:08.256+05:30 DEBUG 8944 --- [Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-22T22:18:08.372+05:30  INFO 8944 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T22:18:08.379+05:30  INFO 8944 --- [Back_End] [main] lk.ijse.back_end.Application             : Started Application in 5.668 seconds (process running for 6.869)
+2025-07-22T22:18:13.139+05:30  INFO 8944 --- [Back_End] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T22:18:13.140+05:30  INFO 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T22:18:13.140+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-07-22T22:18:13.140+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-07-22T22:18:13.140+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-07-22T22:18:13.142+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6fa2d0b2
+2025-07-22T22:18:13.142+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@57df93c1
+2025-07-22T22:18:13.142+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-22T22:18:13.142+05:30  INFO 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-07-22T22:18:13.148+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:18:13.154+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:18:13.332+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:18:13.334+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@2a6 (truncated)...]
+2025-07-22T22:18:13.353+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:18:19.346+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:18:19.346+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:18:19.356+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:18:19.356+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@1c4 (truncated)...]
+2025-07-22T22:18:19.356+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:18:23.387+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:18:23.387+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:18:23.396+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:18:23.396+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@438 (truncated)...]
+2025-07-22T22:18:23.396+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:18:29.538+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:18:29.538+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:18:29.547+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:18:29.547+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@2bd (truncated)...]
+2025-07-22T22:18:29.550+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:19:43.995+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/update", parameters={}
+2025-07-22T22:19:44.002+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#updateJob(JobDTO)
+2025-07-22T22:19:44.004+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:19:44.036+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:19:44.036+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:19:44.046+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:19:44.046+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@8ad (truncated)...]
+2025-07-22T22:19:44.047+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:20:01.421+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:20:01.421+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:20:01.468+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:20:01.468+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:20:01.472+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@7177467]
+2025-07-22T22:20:01.476+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:20:01.477+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@4c3 (truncated)...]
+2025-07-22T22:20:01.478+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:20:01.496+05:30  INFO 8944 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:20:01.496+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:20:01.496+05:30 ERROR 8944 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:20:01.496+05:30  WARN 8944 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:20:01.582+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:20:01.582+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Saved Successfully, data=null)]
+2025-07-22T22:20:01.584+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:20:05.947+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:20:05.947+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:20:05.947+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:20:05.947+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@333 (truncated)...]
+2025-07-22T22:20:05.958+05:30 DEBUG 8944 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:21:59.953+05:30  INFO 8944 --- [Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T22:21:59.981+05:30  INFO 8944 --- [Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T22:22:00.015+05:30  INFO 8944 --- [Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:22:00.049+05:30  INFO 8944 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-22T22:22:00.081+05:30  INFO 8944 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-22T22:22:03.068+05:30  INFO 6600 --- [Back_End] [main] lk.ijse.back_end.Application             : Starting Application using Java 21.0.4 with PID 6600 (D:\AAD\JAVAEE\PROJECTS\JMS\Back_End\target\classes started by VivoBook in D:\AAD\JAVAEE\PROJECTS\JMS)
+2025-07-22T22:22:03.069+05:30 DEBUG 6600 --- [Back_End] [main] lk.ijse.back_end.Application             : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22T22:22:03.070+05:30  INFO 6600 --- [Back_End] [main] lk.ijse.back_end.Application             : No active profile set, falling back to 1 default profile: "default"
+2025-07-22T22:22:03.566+05:30  INFO 6600 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22T22:22:03.613+05:30  INFO 6600 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2025-07-22T22:22:04.033+05:30  INFO 6600 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T22:22:04.044+05:30  INFO 6600 --- [Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T22:22:04.044+05:30  INFO 6600 --- [Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T22:22:04.086+05:30  INFO 6600 --- [Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T22:22:04.086+05:30  INFO 6600 --- [Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 983 ms
+2025-07-22T22:22:04.219+05:30  INFO 6600 --- [Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22T22:22:04.272+05:30  INFO 6600 --- [Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22T22:22:04.306+05:30  INFO 6600 --- [Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-22T22:22:04.572+05:30  INFO 6600 --- [Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22T22:22:04.595+05:30  INFO 6600 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-22T22:22:04.957+05:30  INFO 6600 --- [Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dda8a2e
+2025-07-22T22:22:04.958+05:30  INFO 6600 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-22T22:22:05.025+05:30  WARN 6600 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-22T22:22:05.025+05:30  WARN 6600 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-22T22:22:05.040+05:30  INFO 6600 --- [Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22T22:22:05.693+05:30  INFO 6600 --- [Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22T22:22:05.756+05:30  INFO 6600 --- [Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:22:05.971+05:30  INFO 6600 --- [Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-22T22:22:06.017+05:30  WARN 6600 --- [Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22T22:22:06.080+05:30 DEBUG 6600 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-07-22T22:22:06.133+05:30 DEBUG 6600 --- [Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-07-22T22:22:06.150+05:30 DEBUG 6600 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-22T22:22:06.187+05:30 DEBUG 6600 --- [Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-22T22:22:06.280+05:30  INFO 6600 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T22:22:06.285+05:30  INFO 6600 --- [Back_End] [main] lk.ijse.back_end.Application             : Started Application in 3.649 seconds (process running for 4.41)
+2025-07-22T22:22:09.386+05:30  INFO 6600 --- [Back_End] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T22:22:09.386+05:30  INFO 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T22:22:09.386+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-07-22T22:22:09.388+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-07-22T22:22:09.388+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-07-22T22:22:09.388+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7a6e0f3c
+2025-07-22T22:22:09.388+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2b55ea4d
+2025-07-22T22:22:09.388+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-22T22:22:09.389+05:30  INFO 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-07-22T22:22:09.394+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:22:09.394+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:22:09.587+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:22:09.589+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@3d9 (truncated)...]
+2025-07-22T22:22:09.605+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:28:14.567+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:28:14.618+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:28:15.023+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:28:15.030+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@248 (truncated)...]
+2025-07-22T22:28:15.055+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:31:31.945+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:31:31.952+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:31:32.081+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:31:32.082+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@fbe (truncated)...]
+2025-07-22T22:31:32.086+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:31:32.091+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:31:32.092+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:31:32.100+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:31:32.101+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@2f0 (truncated)...]
+2025-07-22T22:31:32.102+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:32:15.700+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:32:15.712+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:32:15.744+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:32:15.746+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@42b (truncated)...]
+2025-07-22T22:32:15.753+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:32:15.760+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:32:15.761+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:32:15.771+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:32:15.772+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@798 (truncated)...]
+2025-07-22T22:32:15.773+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:32:51.553+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:32:51.554+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:32:51.570+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:32:51.570+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@50f (truncated)...]
+2025-07-22T22:32:51.571+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:32:51.573+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:32:51.573+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:32:51.582+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:32:51.582+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@69e (truncated)...]
+2025-07-22T22:32:51.583+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:33:28.821+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:33:28.825+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:33:28.848+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:33:28.848+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@7ca (truncated)...]
+2025-07-22T22:33:28.850+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:33:28.852+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:33:28.852+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:33:28.950+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:33:28.951+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@489 (truncated)...]
+2025-07-22T22:33:28.957+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:35:00.182+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:35:00.200+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:35:00.461+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:35:00.463+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@7de (truncated)...]
+2025-07-22T22:35:00.482+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:35:00.503+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:35:00.504+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:35:00.526+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:35:00.530+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@7d6 (truncated)...]
+2025-07-22T22:35:00.532+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:35:04.604+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:35:04.606+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:35:04.627+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:35:04.628+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@7e8 (truncated)...]
+2025-07-22T22:35:04.630+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:35:04.636+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:35:04.637+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:35:04.655+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:35:04.656+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@6b7 (truncated)...]
+2025-07-22T22:35:04.658+05:30 DEBUG 6600 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:35:29.088+05:30  INFO 6600 --- [Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T22:35:29.134+05:30  INFO 6600 --- [Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T22:35:29.187+05:30  INFO 6600 --- [Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:35:29.223+05:30  INFO 6600 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-22T22:35:29.287+05:30  INFO 6600 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-22T22:35:36.412+05:30  INFO 12392 --- [Back_End] [main] lk.ijse.back_end.Application             : Starting Application using Java 21.0.4 with PID 12392 (D:\AAD\JAVAEE\PROJECTS\JMS\Back_End\target\classes started by VivoBook in D:\AAD\JAVAEE\PROJECTS\JMS)
+2025-07-22T22:35:36.415+05:30 DEBUG 12392 --- [Back_End] [main] lk.ijse.back_end.Application             : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22T22:35:36.416+05:30  INFO 12392 --- [Back_End] [main] lk.ijse.back_end.Application             : No active profile set, falling back to 1 default profile: "default"
+2025-07-22T22:35:37.498+05:30  INFO 12392 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22T22:35:37.576+05:30  INFO 12392 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2025-07-22T22:35:38.206+05:30  INFO 12392 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T22:35:38.222+05:30  INFO 12392 --- [Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T22:35:38.222+05:30  INFO 12392 --- [Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T22:35:38.279+05:30  INFO 12392 --- [Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T22:35:38.280+05:30  INFO 12392 --- [Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1788 ms
+2025-07-22T22:35:38.443+05:30  INFO 12392 --- [Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22T22:35:38.512+05:30  INFO 12392 --- [Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22T22:35:38.551+05:30  INFO 12392 --- [Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-22T22:35:38.869+05:30  INFO 12392 --- [Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22T22:35:38.900+05:30  INFO 12392 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-22T22:35:39.327+05:30  INFO 12392 --- [Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ed8b44
+2025-07-22T22:35:39.329+05:30  INFO 12392 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-22T22:35:39.398+05:30  WARN 12392 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-22T22:35:39.399+05:30  WARN 12392 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-22T22:35:39.422+05:30  INFO 12392 --- [Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22T22:35:40.441+05:30  INFO 12392 --- [Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22T22:35:40.528+05:30  INFO 12392 --- [Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:35:40.761+05:30  INFO 12392 --- [Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-22T22:35:40.872+05:30  WARN 12392 --- [Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22T22:35:40.964+05:30 DEBUG 12392 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-07-22T22:35:41.037+05:30 DEBUG 12392 --- [Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-07-22T22:35:41.060+05:30 DEBUG 12392 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-22T22:35:41.105+05:30 DEBUG 12392 --- [Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-22T22:35:41.220+05:30  INFO 12392 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T22:35:41.226+05:30  INFO 12392 --- [Back_End] [main] lk.ijse.back_end.Application             : Started Application in 5.568 seconds (process running for 6.803)
+2025-07-22T22:35:49.124+05:30  INFO 12392 --- [Back_End] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T22:35:49.124+05:30  INFO 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T22:35:49.124+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-07-22T22:35:49.124+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-07-22T22:35:49.124+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-07-22T22:35:49.124+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@15254569
+2025-07-22T22:35:49.125+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6bbb3280
+2025-07-22T22:35:49.125+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-22T22:35:49.125+05:30  INFO 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-22T22:35:49.131+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:35:49.139+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:35:49.348+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:35:49.351+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@24f (truncated)...]
+2025-07-22T22:35:49.374+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:35:49.660+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:35:49.660+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:35:49.668+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:35:49.668+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@24c (truncated)...]
+2025-07-22T22:35:49.669+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:36:03.769+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:36:03.770+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:36:03.779+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:36:03.779+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@52c (truncated)...]
+2025-07-22T22:36:03.782+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:36:09.795+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:36:09.795+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:36:09.804+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:36:09.806+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@70d (truncated)...]
+2025-07-22T22:36:09.807+05:30 DEBUG 12392 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:37:31.543+05:30  INFO 12392 --- [Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T22:37:31.613+05:30  INFO 12392 --- [Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T22:37:31.673+05:30  INFO 12392 --- [Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:37:31.726+05:30  INFO 12392 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-22T22:37:31.822+05:30  INFO 12392 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-22T22:37:37.951+05:30  INFO 4128 --- [Back_End] [main] lk.ijse.back_end.Application             : Starting Application using Java 21.0.4 with PID 4128 (D:\AAD\JAVAEE\PROJECTS\JMS\Back_End\target\classes started by VivoBook in D:\AAD\JAVAEE\PROJECTS\JMS)
+2025-07-22T22:37:37.954+05:30 DEBUG 4128 --- [Back_End] [main] lk.ijse.back_end.Application             : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22T22:37:37.955+05:30  INFO 4128 --- [Back_End] [main] lk.ijse.back_end.Application             : No active profile set, falling back to 1 default profile: "default"
+2025-07-22T22:37:38.914+05:30  INFO 4128 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22T22:37:39.021+05:30  INFO 4128 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interface.
+2025-07-22T22:37:39.688+05:30  INFO 4128 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T22:37:39.713+05:30  INFO 4128 --- [Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T22:37:39.714+05:30  INFO 4128 --- [Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T22:37:39.818+05:30  INFO 4128 --- [Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T22:37:39.820+05:30  INFO 4128 --- [Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1791 ms
+2025-07-22T22:37:40.075+05:30  INFO 4128 --- [Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22T22:37:40.166+05:30  INFO 4128 --- [Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22T22:37:40.219+05:30  INFO 4128 --- [Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-22T22:37:42.693+05:30  INFO 4128 --- [Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22T22:37:42.961+05:30  INFO 4128 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-22T22:37:43.509+05:30  INFO 4128 --- [Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cc708a7
+2025-07-22T22:37:43.511+05:30  INFO 4128 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-22T22:37:43.579+05:30  WARN 4128 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-22T22:37:43.579+05:30  WARN 4128 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-22T22:37:43.592+05:30  INFO 4128 --- [Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22T22:37:44.244+05:30  INFO 4128 --- [Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22T22:37:44.316+05:30  INFO 4128 --- [Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:37:44.527+05:30  INFO 4128 --- [Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-22T22:37:44.643+05:30  WARN 4128 --- [Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22T22:37:44.739+05:30 DEBUG 4128 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-07-22T22:37:44.807+05:30 DEBUG 4128 --- [Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-07-22T22:37:44.837+05:30 DEBUG 4128 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-22T22:37:44.884+05:30 DEBUG 4128 --- [Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-22T22:37:45.018+05:30  INFO 4128 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T22:37:45.025+05:30  INFO 4128 --- [Back_End] [main] lk.ijse.back_end.Application             : Started Application in 8.05 seconds (process running for 9.406)
+2025-07-22T22:37:45.169+05:30  INFO 4128 --- [Back_End] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T22:37:45.169+05:30  INFO 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T22:37:45.170+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-07-22T22:37:45.170+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-07-22T22:37:45.170+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-07-22T22:37:45.171+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7e1953f7
+2025-07-22T22:37:45.171+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7603cfc2
+2025-07-22T22:37:45.172+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-22T22:37:45.172+05:30  INFO 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-07-22T22:37:45.179+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:37:45.189+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:37:45.443+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:37:45.447+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@2fc (truncated)...]
+2025-07-22T22:37:45.466+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:38:02.577+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:38:02.578+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:38:02.618+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@4440d119]
+2025-07-22T22:38:02.629+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:38:02.629+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:38:02.642+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:38:02.642+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@52c (truncated)...]
+2025-07-22T22:38:02.643+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:38:02.658+05:30  INFO 4128 --- [Back_End] [http-nio-8080-exec-1] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:38:02.658+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:38:02.658+05:30 ERROR 4128 --- [Back_End] [http-nio-8080-exec-1] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:38:02.658+05:30  WARN 4128 --- [Back_End] [http-nio-8080-exec-1] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:38:02.724+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:38:02.724+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Saved Successfully, data=null)]
+2025-07-22T22:38:02.724+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:38:05.358+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:38:05.358+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:38:05.372+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:38:05.372+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@620 (truncated)...]
+2025-07-22T22:38:05.374+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:38:26.735+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
+2025-07-22T22:38:26.735+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#updateJob(JobDTO)
+2025-07-22T22:38:26.739+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@5f1e79f]
+2025-07-22T22:38:27.034+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:38:27.035+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:38:27.262+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:38:27.262+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@3e0 (truncated)...]
+2025-07-22T22:38:27.263+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:38:27.834+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:38:27.834+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Updated Successfully, data=null)]
+2025-07-22T22:38:27.834+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:38:34.003+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:38:34.003+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:38:34.018+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:38:34.019+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@32b (truncated)...]
+2025-07-22T22:38:34.020+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:38:57.284+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
+2025-07-22T22:38:57.284+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#updateJob(JobDTO)
+2025-07-22T22:38:57.290+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@23d4522]
+2025-07-22T22:38:57.298+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:38:57.305+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Updated Successfully, data=null)]
+2025-07-22T22:38:57.305+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:38:57.329+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:38:57.330+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:38:57.338+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:38:57.338+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@5bf (truncated)...]
+2025-07-22T22:38:57.339+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:39:06.597+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
+2025-07-22T22:39:06.597+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#updateJob(JobDTO)
+2025-07-22T22:39:06.597+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@7c51afa8]
+2025-07-22T22:39:06.616+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:39:06.616+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Updated Successfully, data=null)]
+2025-07-22T22:39:06.618+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:39:06.634+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:39:06.634+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:39:06.641+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:39:06.641+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@79c (truncated)...]
+2025-07-22T22:39:06.642+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:39:15.262+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
+2025-07-22T22:39:15.262+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#updateJob(JobDTO)
+2025-07-22T22:39:15.262+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@62faa8f7]
+2025-07-22T22:39:15.277+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:39:15.278+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Updated Successfully, data=null)]
+2025-07-22T22:39:15.278+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:39:15.306+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:39:15.306+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:39:15.311+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:39:15.313+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@123 (truncated)...]
+2025-07-22T22:39:15.314+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:39:23.668+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
+2025-07-22T22:39:23.668+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#updateJob(JobDTO)
+2025-07-22T22:39:23.670+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@61bfd3f3]
+2025-07-22T22:39:23.684+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:39:23.684+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Updated Successfully, data=null)]
+2025-07-22T22:39:23.684+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:39:23.701+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:39:23.711+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:39:23.720+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:39:23.720+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@5b0 (truncated)...]
+2025-07-22T22:39:23.720+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:39:31.868+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
+2025-07-22T22:39:31.868+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#updateJob(JobDTO)
+2025-07-22T22:39:31.870+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@16735755]
+2025-07-22T22:39:31.882+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:39:31.882+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Updated Successfully, data=null)]
+2025-07-22T22:39:31.884+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:39:31.910+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:39:31.911+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:39:31.917+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:39:31.917+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@1ec (truncated)...]
+2025-07-22T22:39:31.918+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:42:07.334+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:42:07.395+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:42:07.732+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:42:07.738+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@22d (truncated)...]
+2025-07-22T22:42:07.756+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:42:07.756+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:42:07.756+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:42:07.768+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:42:07.768+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@109 (truncated)...]
+2025-07-22T22:42:07.768+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:42:21.431+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:42:21.431+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:42:21.440+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:42:21.440+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@36a (truncated)...]
+2025-07-22T22:42:21.442+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:42:26.820+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:42:26.820+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:42:26.833+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:42:26.833+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@282 (truncated)...]
+2025-07-22T22:42:26.835+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:42:43.884+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:42:43.886+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:42:43.895+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:42:43.895+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@668 (truncated)...]
+2025-07-22T22:42:43.902+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:42:44.105+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:42:44.107+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:42:44.120+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:42:44.120+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@6ec (truncated)...]
+2025-07-22T22:42:44.123+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:43:02.698+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:43:02.699+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:43:02.715+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:43:02.716+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@130 (truncated)...]
+2025-07-22T22:43:02.718+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:43:02.720+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:43:02.720+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:43:02.728+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:43:02.728+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@7aa (truncated)...]
+2025-07-22T22:43:02.728+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:46:35.500+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:46:35.510+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:46:35.660+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:46:35.661+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@530 (truncated)...]
+2025-07-22T22:46:35.670+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:46:35.674+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:46:35.674+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:46:35.683+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:46:35.684+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@12d (truncated)...]
+2025-07-22T22:46:35.685+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:47:04.582+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/create", parameters={}
+2025-07-22T22:47:04.587+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:47:04.657+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:47:04.670+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:47:04.670+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:47:04.682+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:47:04.682+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@391 (truncated)...]
+2025-07-22T22:47:04.684+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:47:08.851+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:47:08.852+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:47:08.862+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:47:08.862+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@25b (truncated)...]
+2025-07-22T22:47:08.863+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:47:15.025+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:47:15.025+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:47:15.032+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:47:15.034+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@377 (truncated)...]
+2025-07-22T22:47:15.035+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:48:06.870+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/status/1", parameters={}
+2025-07-22T22:48:06.876+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#changeJobStatus(String)
+2025-07-22T22:48:06.882+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:48:06.887+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : PATCH "/api/v1/job/status/1", parameters={}
+2025-07-22T22:48:06.889+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#changeJobStatus(String)
+2025-07-22T22:48:07.294+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:48:07.294+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Status Changed Successfully, data=null)]
+2025-07-22T22:48:07.294+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:48:07.307+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:48:07.310+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:48:07.320+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:48:07.320+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@330 (truncated)...]
+2025-07-22T22:48:07.320+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:48:12.504+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/status/2", parameters={}
+2025-07-22T22:48:12.504+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#changeJobStatus(String)
+2025-07-22T22:48:12.504+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:48:12.510+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : PATCH "/api/v1/job/status/2", parameters={}
+2025-07-22T22:48:12.510+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#changeJobStatus(String)
+2025-07-22T22:48:12.516+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:48:12.516+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Status Changed Successfully, data=null)]
+2025-07-22T22:48:12.516+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:48:12.524+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:48:12.524+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:48:12.532+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:48:12.532+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@589 (truncated)...]
+2025-07-22T22:48:12.534+05:30 DEBUG 4128 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:49:07.445+05:30  INFO 4128 --- [Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T22:49:07.474+05:30  INFO 4128 --- [Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T22:49:07.503+05:30  INFO 4128 --- [Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:49:07.539+05:30  INFO 4128 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-22T22:49:07.575+05:30  INFO 4128 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-22T22:49:11.318+05:30  INFO 8164 --- [Back_End] [main] lk.ijse.back_end.Application             : Starting Application using Java 21.0.4 with PID 8164 (D:\AAD\JAVAEE\PROJECTS\JMS\Back_End\target\classes started by VivoBook in D:\AAD\JAVAEE\PROJECTS\JMS)
+2025-07-22T22:49:11.320+05:30 DEBUG 8164 --- [Back_End] [main] lk.ijse.back_end.Application             : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22T22:49:11.320+05:30  INFO 8164 --- [Back_End] [main] lk.ijse.back_end.Application             : No active profile set, falling back to 1 default profile: "default"
+2025-07-22T22:49:11.858+05:30  INFO 8164 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22T22:49:11.900+05:30  INFO 8164 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2025-07-22T22:49:12.259+05:30  INFO 8164 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T22:49:12.268+05:30  INFO 8164 --- [Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T22:49:12.270+05:30  INFO 8164 --- [Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T22:49:12.307+05:30  INFO 8164 --- [Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T22:49:12.308+05:30  INFO 8164 --- [Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 934 ms
+2025-07-22T22:49:12.426+05:30  INFO 8164 --- [Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22T22:49:12.487+05:30  INFO 8164 --- [Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22T22:49:12.522+05:30  INFO 8164 --- [Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-22T22:49:12.743+05:30  INFO 8164 --- [Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22T22:49:12.764+05:30  INFO 8164 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-22T22:49:13.441+05:30  INFO 8164 --- [Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e158f33
+2025-07-22T22:49:13.442+05:30  INFO 8164 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-22T22:49:13.502+05:30  WARN 8164 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-22T22:49:13.503+05:30  WARN 8164 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-22T22:49:13.520+05:30  INFO 8164 --- [Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22T22:49:14.237+05:30  INFO 8164 --- [Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22T22:49:14.342+05:30  INFO 8164 --- [Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:49:14.535+05:30  INFO 8164 --- [Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-22T22:49:14.621+05:30  WARN 8164 --- [Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22T22:49:14.690+05:30 DEBUG 8164 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-07-22T22:49:14.745+05:30 DEBUG 8164 --- [Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-07-22T22:49:14.766+05:30 DEBUG 8164 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-22T22:49:14.802+05:30 DEBUG 8164 --- [Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-22T22:49:14.886+05:30  INFO 8164 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T22:49:14.891+05:30  INFO 8164 --- [Back_End] [main] lk.ijse.back_end.Application             : Started Application in 4.137 seconds (process running for 4.924)
+2025-07-22T22:49:24.956+05:30  INFO 8164 --- [Back_End] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T22:49:24.957+05:30  INFO 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T22:49:24.957+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-07-22T22:49:24.957+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-07-22T22:49:24.957+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-07-22T22:49:24.958+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4daead88
+2025-07-22T22:49:24.958+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2ad80cf6
+2025-07-22T22:49:24.958+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-22T22:49:24.958+05:30  INFO 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-22T22:49:24.964+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:49:24.971+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:49:25.097+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-22T22:49:25.124+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:49:25.127+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=500, message=Job not found, data=null)]
+2025-07-22T22:49:25.138+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [lk.ijse.back_end.exception.ResourceNotFound: Job not found]
+2025-07-22T22:49:25.139+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-22T22:50:21.416+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:50:21.416+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:50:21.464+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@4ff6b813]
+2025-07-22T22:50:21.496+05:30  INFO 8164 --- [Back_End] [http-nio-8080-exec-2] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:50:21.496+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:50:21.496+05:30 ERROR 8164 --- [Back_End] [http-nio-8080-exec-2] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:50:21.496+05:30  WARN 8164 --- [Back_End] [http-nio-8080-exec-2] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:50:21.496+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:50:21.496+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:50:21.511+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-22T22:50:21.511+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:50:21.512+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=500, message=Job not found, data=null)]
+2025-07-22T22:50:21.512+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [lk.ijse.back_end.exception.ResourceNotFound: Job not found]
+2025-07-22T22:50:21.513+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-22T22:50:21.579+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:50:21.579+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Saved Successfully, data=null)]
+2025-07-22T22:50:21.579+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:50:52.906+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:50:52.906+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:50:52.906+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@7fbb3b69]
+2025-07-22T22:50:52.920+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleMethodArgumentNotValidException(MethodArgumentNotValidException)
+2025-07-22T22:50:52.921+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:50:52.921+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=400, message=Validation Failed, data={description=Job description must be at leas (truncated)...]
+2025-07-22T22:50:52.928+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<lk.ijse.back_end.util.APIResponse<java.lang.Object>> lk.ijse.back_end.controller.JobController.createJob(lk.ijse.back_end.dto.JobDTO): [Field error in object 'jobDTO' on field 'description': rejected value [example]; codes [Size.jobDTO.description,Size.description,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [jobDTO.description,description]; arguments []; default message [description],2147483647,10]; default message [Job description must be at least 10 characters long]] ]
+2025-07-22T22:50:52.928+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-07-22T22:50:52.960+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:50:52.960+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:50:52.970+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:50:52.971+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@325 (truncated)...]
+2025-07-22T22:50:52.975+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:51:18.374+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:51:18.374+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:51:18.377+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@7123acf6]
+2025-07-22T22:51:18.379+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleMethodArgumentNotValidException(MethodArgumentNotValidException)
+2025-07-22T22:51:18.379+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:51:18.379+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=400, message=Validation Failed, data={description=Job description must be at leas (truncated)...]
+2025-07-22T22:51:18.380+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<lk.ijse.back_end.util.APIResponse<java.lang.Object>> lk.ijse.back_end.controller.JobController.createJob(lk.ijse.back_end.dto.JobDTO): [Field error in object 'jobDTO' on field 'description': rejected value [no]; codes [Size.jobDTO.description,Size.description,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [jobDTO.description,description]; arguments []; default message [description],2147483647,10]; default message [Job description must be at least 10 characters long]] ]
+2025-07-22T22:51:18.380+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-07-22T22:51:18.427+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:51:18.428+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:51:18.433+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:51:18.434+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@465 (truncated)...]
+2025-07-22T22:51:18.434+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:51:20.875+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:51:20.875+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:51:20.880+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:51:20.880+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@6ba (truncated)...]
+2025-07-22T22:51:20.882+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:51:21.456+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:51:21.456+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:51:21.465+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:51:21.465+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@66c (truncated)...]
+2025-07-22T22:51:21.467+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:51:21.720+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:51:21.720+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:51:21.728+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:51:21.728+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@776 (truncated)...]
+2025-07-22T22:51:21.728+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:51:50.049+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:51:50.050+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:51:50.062+05:30  WARN 8164 --- [Back_End] [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1049, SQLState: 42000
+2025-07-22T22:51:50.062+05:30 ERROR 8164 --- [Back_End] [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown database 'jms'
+2025-07-22T22:51:50.076+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-22T22:51:50.077+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:51:50.077+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=500, message=JDBC exception executing SQL [select j1_0.id,j1_0.company,j1_0.descr (truncated)...]
+2025-07-22T22:51:50.078+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select j1_0.id,j1_0.company,j1_0.description,j1_0.job_title,j1_0.location,j1_0.status,j1_0.type from job j1_0] [Unknown database 'jms'] [n/a]; SQL [n/a]]
+2025-07-22T22:51:50.078+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-22T22:52:08.939+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:52:08.939+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:52:08.944+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@17cc091f]
+2025-07-22T22:52:08.945+05:30  INFO 8164 --- [Back_End] [http-nio-8080-exec-5] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:52:08.945+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:52:08.945+05:30 ERROR 8164 --- [Back_End] [http-nio-8080-exec-5] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:52:08.945+05:30  WARN 8164 --- [Back_End] [http-nio-8080-exec-5] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:52:08.946+05:30  WARN 8164 --- [Back_End] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1049, SQLState: 42000
+2025-07-22T22:52:08.946+05:30 ERROR 8164 --- [Back_End] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown database 'jms'
+2025-07-22T22:52:08.946+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-22T22:52:08.946+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:52:08.946+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=500, message=could not execute statement [Unknown database 'jms'] [insert into jo (truncated)...]
+2025-07-22T22:52:08.946+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [Unknown database 'jms'] [insert into job (company,description,job_title,location,status,type) values (?,?,?,?,?,?)]; SQL [insert into job (company,description,job_title,location,status,type) values (?,?,?,?,?,?)]]
+2025-07-22T22:52:08.946+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-22T22:52:08.983+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:52:08.984+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:52:08.988+05:30  WARN 8164 --- [Back_End] [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1049, SQLState: 42000
+2025-07-22T22:52:08.988+05:30 ERROR 8164 --- [Back_End] [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown database 'jms'
+2025-07-22T22:52:08.989+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-22T22:52:08.990+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:52:08.990+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=500, message=JDBC exception executing SQL [select j1_0.id,j1_0.company,j1_0.descr (truncated)...]
+2025-07-22T22:52:08.990+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select j1_0.id,j1_0.company,j1_0.description,j1_0.job_title,j1_0.location,j1_0.status,j1_0.type from job j1_0] [Unknown database 'jms'] [n/a]; SQL [n/a]]
+2025-07-22T22:52:08.991+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-22T22:52:12.354+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:52:12.354+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:52:12.366+05:30  WARN 8164 --- [Back_End] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1049, SQLState: 42000
+2025-07-22T22:52:12.367+05:30 ERROR 8164 --- [Back_End] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown database 'jms'
+2025-07-22T22:52:12.368+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-22T22:52:12.368+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:52:12.368+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=500, message=JDBC exception executing SQL [select j1_0.id,j1_0.company,j1_0.descr (truncated)...]
+2025-07-22T22:52:12.369+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select j1_0.id,j1_0.company,j1_0.description,j1_0.job_title,j1_0.location,j1_0.status,j1_0.type from job j1_0] [Unknown database 'jms'] [n/a]; SQL [n/a]]
+2025-07-22T22:52:12.369+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-22T22:52:34.450+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:52:34.450+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:52:34.450+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@f881c87]
+2025-07-22T22:52:34.450+05:30  INFO 8164 --- [Back_End] [http-nio-8080-exec-3] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:52:34.450+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:52:34.450+05:30 ERROR 8164 --- [Back_End] [http-nio-8080-exec-3] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:52:34.450+05:30  WARN 8164 --- [Back_End] [http-nio-8080-exec-3] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:52:34.460+05:30  WARN 8164 --- [Back_End] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1049, SQLState: 42000
+2025-07-22T22:52:34.460+05:30 ERROR 8164 --- [Back_End] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown database 'jms'
+2025-07-22T22:52:34.464+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-22T22:52:34.464+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:52:34.464+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=500, message=could not execute statement [Unknown database 'jms'] [insert into jo (truncated)...]
+2025-07-22T22:52:34.465+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [Unknown database 'jms'] [insert into job (company,description,job_title,location,status,type) values (?,?,?,?,?,?)]; SQL [insert into job (company,description,job_title,location,status,type) values (?,?,?,?,?,?)]]
+2025-07-22T22:52:34.466+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-22T22:52:34.499+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:52:34.499+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:52:34.501+05:30  WARN 8164 --- [Back_End] [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1049, SQLState: 42000
+2025-07-22T22:52:34.501+05:30 ERROR 8164 --- [Back_End] [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown database 'jms'
+2025-07-22T22:52:34.501+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-22T22:52:34.501+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:52:34.501+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=500, message=JDBC exception executing SQL [select j1_0.id,j1_0.company,j1_0.descr (truncated)...]
+2025-07-22T22:52:34.501+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select j1_0.id,j1_0.company,j1_0.description,j1_0.job_title,j1_0.location,j1_0.status,j1_0.type from job j1_0] [Unknown database 'jms'] [n/a]; SQL [n/a]]
+2025-07-22T22:52:34.501+05:30 DEBUG 8164 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-22T22:52:43.057+05:30  INFO 8164 --- [Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T22:52:43.070+05:30  INFO 8164 --- [Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T22:52:43.096+05:30  INFO 8164 --- [Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:52:43.118+05:30  INFO 8164 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-22T22:52:43.147+05:30  INFO 8164 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-22T22:52:46.890+05:30  INFO 1684 --- [Back_End] [main] lk.ijse.back_end.Application             : Starting Application using Java 21.0.4 with PID 1684 (D:\AAD\JAVAEE\PROJECTS\JMS\Back_End\target\classes started by VivoBook in D:\AAD\JAVAEE\PROJECTS\JMS)
+2025-07-22T22:52:46.892+05:30 DEBUG 1684 --- [Back_End] [main] lk.ijse.back_end.Application             : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22T22:52:46.893+05:30  INFO 1684 --- [Back_End] [main] lk.ijse.back_end.Application             : No active profile set, falling back to 1 default profile: "default"
+2025-07-22T22:52:47.470+05:30  INFO 1684 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22T22:52:47.534+05:30  INFO 1684 --- [Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+2025-07-22T22:52:48.020+05:30  INFO 1684 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-22T22:52:48.032+05:30  INFO 1684 --- [Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22T22:52:48.032+05:30  INFO 1684 --- [Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22T22:52:48.074+05:30  INFO 1684 --- [Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22T22:52:48.075+05:30  INFO 1684 --- [Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1146 ms
+2025-07-22T22:52:48.203+05:30  INFO 1684 --- [Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22T22:52:48.258+05:30  INFO 1684 --- [Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22T22:52:48.287+05:30  INFO 1684 --- [Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-22T22:52:48.503+05:30  INFO 1684 --- [Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22T22:52:48.528+05:30  INFO 1684 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-22T22:52:49.234+05:30  INFO 1684 --- [Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70022d44
+2025-07-22T22:52:49.237+05:30  INFO 1684 --- [Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-22T22:52:49.295+05:30  WARN 1684 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-22T22:52:49.295+05:30  WARN 1684 --- [Back_End] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-22T22:52:49.308+05:30  INFO 1684 --- [Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22T22:52:49.984+05:30  INFO 1684 --- [Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22T22:52:50.082+05:30  INFO 1684 --- [Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T22:52:50.286+05:30  INFO 1684 --- [Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-22T22:52:50.330+05:30  WARN 1684 --- [Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22T22:52:50.393+05:30 DEBUG 1684 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-07-22T22:52:50.450+05:30 DEBUG 1684 --- [Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-07-22T22:52:50.467+05:30 DEBUG 1684 --- [Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-22T22:52:50.502+05:30 DEBUG 1684 --- [Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-22T22:52:50.590+05:30  INFO 1684 --- [Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-22T22:52:50.596+05:30  INFO 1684 --- [Back_End] [main] lk.ijse.back_end.Application             : Started Application in 4.172 seconds (process running for 4.86)
+2025-07-22T22:53:07.720+05:30  INFO 1684 --- [Back_End] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22T22:53:07.720+05:30  INFO 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22T22:53:07.721+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-07-22T22:53:07.721+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-07-22T22:53:07.721+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-07-22T22:53:07.722+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7e4c0bc7
+2025-07-22T22:53:07.724+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@638e8194
+2025-07-22T22:53:07.724+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-22T22:53:07.724+05:30  INFO 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-07-22T22:53:07.730+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:53:07.739+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:53:07.866+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-22T22:53:07.894+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:53:07.896+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=500, message=Job not found, data=null)]
+2025-07-22T22:53:07.907+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [lk.ijse.back_end.exception.ResourceNotFound: Job not found]
+2025-07-22T22:53:07.908+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-22T22:53:23.055+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:53:23.055+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:53:23.115+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:53:23.115+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:53:23.118+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@4efb5059]
+2025-07-22T22:53:23.124+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-22T22:53:23.124+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:53:23.124+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=500, message=Job not found, data=null)]
+2025-07-22T22:53:23.125+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [lk.ijse.back_end.exception.ResourceNotFound: Job not found]
+2025-07-22T22:53:23.125+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-22T22:53:23.145+05:30  INFO 1684 --- [Back_End] [http-nio-8080-exec-2] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:53:23.145+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:53:23.145+05:30 ERROR 1684 --- [Back_End] [http-nio-8080-exec-2] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:53:23.145+05:30  WARN 1684 --- [Back_End] [http-nio-8080-exec-2] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:53:23.205+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:53:23.205+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Saved Successfully, data=null)]
+2025-07-22T22:53:23.205+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:53:59.805+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:53:59.806+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:53:59.821+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:53:59.821+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@4e4 (truncated)...]
+2025-07-22T22:53:59.824+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:54:07.607+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:54:07.607+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:54:07.614+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:54:07.614+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@211 (truncated)...]
+2025-07-22T22:54:07.616+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:54:17.785+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : PATCH "/api/v1/job/status/1", parameters={}
+2025-07-22T22:54:17.785+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#changeJobStatus(String)
+2025-07-22T22:54:17.871+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:54:17.871+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Status Changed Successfully, data=null)]
+2025-07-22T22:54:17.871+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:54:17.882+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:54:17.882+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:54:17.885+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:54:17.885+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@165 (truncated)...]
+2025-07-22T22:54:17.887+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:54:57.243+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:54:57.245+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:54:57.248+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@1e3b6661]
+2025-07-22T22:54:57.248+05:30  INFO 1684 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:54:57.248+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:54:57.248+05:30 ERROR 1684 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:54:57.248+05:30  WARN 1684 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:54:57.263+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:54:57.263+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Saved Successfully, data=null)]
+2025-07-22T22:54:57.263+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:54:57.284+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:54:57.285+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:54:57.298+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:54:57.298+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@567 (truncated)...]
+2025-07-22T22:54:57.299+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:54:57.325+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:54:57.325+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:54:57.335+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:54:57.335+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@796 (truncated)...]
+2025-07-22T22:54:57.336+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:55:35.880+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/update", parameters={}
+2025-07-22T22:55:35.882+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#updateJob(JobDTO)
+2025-07-22T22:55:35.884+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:55:35.919+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:55:35.920+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:55:35.929+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:55:35.929+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@456 (truncated)...]
+2025-07-22T22:55:35.930+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:55:38.394+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:55:38.394+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:55:38.400+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:55:38.400+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@524 (truncated)...]
+2025-07-22T22:55:38.400+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:55:39.595+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:55:39.601+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:55:39.608+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:55:39.609+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@4e2 (truncated)...]
+2025-07-22T22:55:39.609+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:55:50.092+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
+2025-07-22T22:55:50.094+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#updateJob(JobDTO)
+2025-07-22T22:55:50.104+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@3e0a70d4]
+2025-07-22T22:55:50.145+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:55:50.145+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:55:50.161+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:55:50.161+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@1a7 (truncated)...]
+2025-07-22T22:55:50.164+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:55:50.198+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:55:50.198+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Updated Successfully, data=null)]
+2025-07-22T22:55:50.199+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:56:55.279+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:56:55.279+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:56:55.282+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@3815de75]
+2025-07-22T22:56:55.282+05:30  INFO 1684 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:56:55.282+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:56:55.282+05:30 ERROR 1684 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:56:55.282+05:30  WARN 1684 --- [Back_End] [http-nio-8080-exec-8] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:56:55.291+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:56:55.291+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Saved Successfully, data=null)]
+2025-07-22T22:56:55.293+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:56:55.317+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:56:55.318+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:56:55.323+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:56:55.323+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@4f3 (truncated)...]
+2025-07-22T22:56:55.324+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:57:12.007+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:57:12.007+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:57:12.007+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@4e790789]
+2025-07-22T22:57:12.034+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.back_end.exception.GlobalExceptionHandler#handleMethodArgumentNotValidException(MethodArgumentNotValidException)
+2025-07-22T22:57:12.034+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:57:12.034+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=400, message=Validation Failed, data={description=Job description must be at leas (truncated)...]
+2025-07-22T22:57:12.046+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<lk.ijse.back_end.util.APIResponse<java.lang.Object>> lk.ijse.back_end.controller.JobController.createJob(lk.ijse.back_end.dto.JobDTO): [Field error in object 'jobDTO' on field 'description': rejected value [No]; codes [Size.jobDTO.description,Size.description,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [jobDTO.description,description]; arguments []; default message [description],2147483647,10]; default message [Job description must be at least 10 characters long]] ]
+2025-07-22T22:57:12.046+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-07-22T22:57:12.058+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:57:12.059+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:57:12.065+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:57:12.065+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@3aa (truncated)...]
+2025-07-22T22:57:12.065+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:57:15.282+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:57:15.282+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:57:15.284+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:57:15.284+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@42b (truncated)...]
+2025-07-22T22:57:15.290+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:57:42.354+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:57:42.354+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:57:42.354+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@53c1e11f]
+2025-07-22T22:57:42.354+05:30  INFO 1684 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:57:42.354+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:57:42.354+05:30 ERROR 1684 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:57:42.354+05:30  WARN 1684 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:57:42.368+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:57:42.368+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Saved Successfully, data=null)]
+2025-07-22T22:57:42.368+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:57:42.380+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:57:42.380+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:57:42.385+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:57:42.385+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@5ca (truncated)...]
+2025-07-22T22:57:42.386+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:57:42.722+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:57:42.723+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:57:42.729+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:57:42.729+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@497 (truncated)...]
+2025-07-22T22:57:42.729+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:57:53.165+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : PATCH "/api/v1/job/status/1", parameters={}
+2025-07-22T22:57:53.166+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#changeJobStatus(String)
+2025-07-22T22:57:53.174+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:57:53.174+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Status Changed Successfully, data=null)]
+2025-07-22T22:57:53.174+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:57:53.180+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:57:53.180+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:57:53.189+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:57:53.189+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@39d (truncated)...]
+2025-07-22T22:57:53.189+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:57:56.517+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/status/3", parameters={}
+2025-07-22T22:57:56.517+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#changeJobStatus(String)
+2025-07-22T22:57:56.518+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:57:56.521+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : PATCH "/api/v1/job/status/3", parameters={}
+2025-07-22T22:57:56.521+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#changeJobStatus(String)
+2025-07-22T22:57:56.529+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:57:56.529+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Status Changed Successfully, data=null)]
+2025-07-22T22:57:56.532+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:57:56.540+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:57:56.540+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:57:56.544+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:57:56.545+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@42c (truncated)...]
+2025-07-22T22:57:56.545+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:58:49.677+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:58:49.678+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:58:49.680+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@fc7a999]
+2025-07-22T22:58:49.680+05:30  INFO 1684 --- [Back_End] [http-nio-8080-exec-3] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:58:49.680+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:58:49.680+05:30 ERROR 1684 --- [Back_End] [http-nio-8080-exec-3] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:58:49.680+05:30  WARN 1684 --- [Back_End] [http-nio-8080-exec-3] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:58:49.689+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:58:49.689+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Saved Successfully, data=null)]
+2025-07-22T22:58:49.689+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:58:49.714+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:58:49.716+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:58:49.723+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:58:49.724+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@174 (truncated)...]
+2025-07-22T22:58:49.725+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:59:20.927+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:59:20.928+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:59:20.930+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@41468860]
+2025-07-22T22:59:20.930+05:30  INFO 1684 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:59:20.930+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:59:20.930+05:30 ERROR 1684 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:59:20.930+05:30  WARN 1684 --- [Back_End] [http-nio-8080-exec-4] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:59:20.934+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:59:20.939+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Saved Successfully, data=null)]
+2025-07-22T22:59:20.940+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:59:20.965+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:59:20.965+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:59:20.975+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:59:20.975+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@2d6 (truncated)...]
+2025-07-22T22:59:20.976+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:59:57.334+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
+2025-07-22T22:59:57.335+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#createJob(JobDTO)
+2025-07-22T22:59:57.336+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.back_end.dto.JobDTO@49e071ed]
+2025-07-22T22:59:57.336+05:30  INFO 1684 --- [Back_End] [http-nio-8080-exec-7] l.i.back_end.controller.JobController    : Job Created Successfully
+2025-07-22T22:59:57.339+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] l.i.back_end.controller.JobController    : Job Creation Debugged
+2025-07-22T22:59:57.339+05:30 ERROR 1684 --- [Back_End] [http-nio-8080-exec-7] l.i.back_end.controller.JobController    : Job Creation Failed
+2025-07-22T22:59:57.339+05:30  WARN 1684 --- [Back_End] [http-nio-8080-exec-7] l.i.back_end.controller.JobController    : Job Creation Warned
+2025-07-22T22:59:57.345+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:59:57.345+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job Saved Successfully, data=null)]
+2025-07-22T22:59:57.350+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T22:59:57.379+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T22:59:57.379+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T22:59:57.388+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T22:59:57.388+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@3d6 (truncated)...]
+2025-07-22T22:59:57.390+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T23:00:08.486+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall", parameters={}
+2025-07-22T23:00:08.488+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.back_end.controller.JobController#getAllJobs()
+2025-07-22T23:00:08.495+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-22T23:00:08.496+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIResponse(status=200, message=Job List Fetched Successfully, data=[lk.ijse.back_end.dto.JobDTO@629 (truncated)...]
+2025-07-22T23:00:08.497+05:30 DEBUG 1684 --- [Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-22T23:01:23.501+05:30  INFO 1684 --- [Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22T23:01:23.531+05:30  INFO 1684 --- [Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-22T23:01:23.559+05:30  INFO 1684 --- [Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22T23:01:23.580+05:30  INFO 1684 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-22T23:01:23.612+05:30  INFO 1684 --- [Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
